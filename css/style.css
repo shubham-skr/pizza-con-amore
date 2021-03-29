@@ -75,7 +75,7 @@ h5 {
 
 p {
   font-family: var(--OpenSans);
-  font-size: .85rem;
+  font-size: .9rem;
   font-weight: 500;
   color: --secondary-color-2;
 }
@@ -189,7 +189,6 @@ header {
 }
 
 .home .home-body p {
-  font-size: .9rem;
   text-align: justify;
 }
 
@@ -260,6 +259,7 @@ header {
 }
 
 .services .card-text {
+  font-size: .85rem;
   font-weight: 600;
   color: var(--primary-color-2);
 }
@@ -376,6 +376,10 @@ footer {
 
 footer h2 {
   color: var(--primary-color-1);
+}
+
+footer p {
+  font-size: 0.85rem;
 }
 
 footer .footer-end-text {
