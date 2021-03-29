@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>pizza</title>
+  <title>pizza con amore</title>
   
   <!------- Bootstrap CSS ------->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -13,8 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
   
   <!------- Google Fonts ------->
-  <link rel="preconnect" href="https://fonts.gstatic.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!------- Favicon ------->
   <link rel="icon" href="./css/p_favicon.ico">
@@ -28,7 +28,7 @@
   <header>
     <nav class="navbar navbar-expand-lg pt-1 pb-0">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#home">
+        <a class="navbar-brand fw-bold" href="#home">
           <img src="./images/company_logo.png" alt="Company Logo" width="45" height="45" class="d-inline-block align-text-center me-2">
           pizza con amore
         </a>
@@ -50,9 +50,6 @@
               <a class="nav-link" href="#pizza">Pizza</a>
             </li>
             <li class="nav-item me-1">
-              <a class="nav-link" href="#offers">Offers</a>
-            </li>
-            <li class="nav-item me-1">
               <a class="nav-link" href="#reviews">Reviews</a>
             </li>
             <li class="nav-item me-1">
@@ -66,14 +63,14 @@
   <!------- Header End ------->
 
   <!------- Home Start ------->
-  <section class="home" id="home">
+  <section class="home container-fluid" id="home">
     <div id="home-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
           <div class="row">
             <div class="col-12 col-md-6 home-left">
               <div class="home-body">
-                <h3>New York, USA</h3>
+                <h5>New York, USA</h5>
                 <h1>GREEK-STYLE PIZZA</h1>
                 <p>Characterized by its thick, wettish dough, greasy cheese, tomato sauce with a strong taste 
                    of oregano and a topping of delicious greek ingredients. Baked in a heavily greased pan, 
@@ -90,7 +87,7 @@
           <div class="row">
             <div class="col-12 col-md-6 home-left">
               <div class="home-body">
-                <h3>Italy, Europe</h3>
+                <h5>Italy, Europe</h5>
                 <h1>MARGHERITA PIZZA</h1>
                 <p>Known for its ingredients representing the colours of the Italian flag: red tomato sauce, white 
                    mozzarella and fresh green basil. When all of these delicious flavours are combined on a 
@@ -107,11 +104,11 @@
           <div class="row">
             <div class="col-12 col-md-6 home-left">
               <div class="home-body">
-                <h3>Italy, Europe</h3>
+                <h5>Italy, Europe</h5>
                 <h1>PIZZA ALLA DIAVOLA</h1>
                 <p>We pride ourselves for making the most delicious pizza in Kokata. Diavola is a variety 
-                  of Italian pizza that is traditionally topped with tomato sauce, mozzarella cheese, spicy salami, 
-                  and hot chili peppers. Black olives are optional and can be added for extra flavor.
+                   of Italian pizza that is traditionally topped with tomato sauce, mozzarella cheese, spicy salami, 
+                   and hot chili peppers. Black olives are optional and can be added for extra flavor.
                 </p>
               </div>
             </div>
@@ -135,151 +132,135 @@
 
   <!------- About Start ------->
   <section class="about container text-center" id="about">
-        <div class="row">
-          <div class="col-12 col-md-6 column">
-            <div class="chef-hat">
-              <img src="./images/chef_hat.jpg" alt="Chef's Hat">
-            </div>
-          </div>
-          <div class="col-12 col-md-6 column">
-            <div class="about-body">
-              <h1>Mr. David Wilson</h1>
-              <h2>MasterChef</h2>
-              <p class="mt-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Reprehenderit nisi, voluptates id laudantium molestiae 
-                eaque aspernatur aliquid assumenda officia consequuntur?
-              </p>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                 Nam minima quas, harum recusandae nesciunt deserunt atque, 
-                 sequi illo odio earum eos, rerum quod natus provident beatae 
-                 consequuntur aliquid explicabo! Voluptatum atque maxime qui 
-                 recusandae consequatur dolores laborum molestiae, veritatis quia?
-                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                 Saepe eveniet, deleniti facere voluptatum ut qui.
-                 
-              </p>
-            </div>
-          </div>
+    <div class="row">
+      <div class="col-12 col-md-6 column">
+        <div class="chef-hat">
+          <img src="./images/chef_hat.jpg" alt="Chef's Hat">
         </div>
       </div>
-    </section>
-    <!------- About End ------->
-
-    <!------- Services Start ------->
-    <section class="services" id="services">
-      <div class="section-header">
-        <div class="section-title">
-          <h1>SERVICES</h1>
-          <h2><span></span> what we offer <span></span></h2>
-        </div>
-        <a href="#services">Learn more</a>
-      </div>
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 text-center">
-        <div class="col">
-          <div class="card h-100 align-items-center">
-            <img src="./images/company_logo.png" class="card-img-top" alt="best quality">
-            <div class="card-body">
-              <h2 class="card-title">Best Quality</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quisquam.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 align-items-center">
-            <img src="./images/premium_service.png" class="card-img-top" alt="premium service">
-            <div class="card-body">
-              <h2 class="card-title">Premium Service</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nesciunt!</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 align-items-center">
-            <img src="./images/beautiful_surrounding.png" class="card-img-top" alt="beautiful surroundings">
-            <div class="card-body">
-              <h2 class="card-title">Beautiful Surroundings</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, optio.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 align-items-center">
-            <img src="./images/private_workspace.png" class="card-img-top" alt="private workspace">
-            <div class="card-body">
-              <h2 class="card-title">Private WorkSpace</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, provident.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 align-items-center">
-            <img src="./images/relaxing_environment.png" class="card-img-top" alt="relaxing environment">
-            <div class="card-body">
-              <h2 class="card-title">Relaxing Environment</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, provident.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100 align-items-center">
-            <img src="./images/free_delivery.png" class="card-img-top" alt="free delivery">
-            <div class="card-body">
-              <h2 class="card-title">Free Delivery</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, provident.</p>
-            </div>
-          </div>
+      <div class="col-12 col-md-6 column">
+        <div class="about-body">
+          <h1>Mr. David Wilson</h1>
+          <h2>MasterChef</h2>
+          <p class="mt-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Reprehenderit nisi, voluptates id laudantium molestiae 
+            eaque aspernatur aliquid assumenda officia consequuntur?
+          </p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Nam minima quas, harum recusandae nesciunt deserunt atque, 
+              sequi illo odio earum eos, rerum quod natus provident beatae 
+              consequuntur aliquid explicabo! Voluptatum atque maxime qui 
+              recusandae consequatur dolores laborum molestiae, veritatis quia?
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+              Saepe eveniet, deleniti facere voluptatum ut qui.
+          </p>
         </div>
       </div>
-    </section>
-    <!------- Services End ------->
-    
-    <!------- Pizza Start ------->
-    <section class="pizza" id="pizza">
-      <div class="section-header">
-        <div class="section-title">
-          <h1>MOST LOVED PIZZAS</h1>
-          <h2><span></span> all time favorites <span></span></h2>
-        </div>
-        <a href="#pizza">Order now</a>
-      </div>
-      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
-        <img class="img-fluid" src="./images/pizza_4.jpg" alt="pizza 1">
-        <img class="img-fluid" src="./images/pizza_5.jpg" alt="pizza 2">
-        <img class="img-fluid" src="./images/pizza_6.jpg" alt="pizza 3">
-        <img class="img-fluid" src="./images/pizza_7.jpg" alt="pizza 4">
-        <img class="img-fluid" src="./images/pizza_8.jpg" alt="pizza 5">
-        <img class="img-fluid" src="./images/pizza_7.jpg" alt="pizza 6">
-        <img class="img-fluid" src="./images/pizza_9.jpg" alt="pizza 7">
-        <img class="img-fluid" src="./images/pizza_4.jpg" alt="pizza 8">
-        <img class="img-fluid" src="./images/pizza_6.jpg" alt="pizza 9">
-        <img class="img-fluid" src="./images/pizza_4.jpg" alt="pizza 10">
-        <img class="img-fluid" src="./images/pizza_5.jpg" alt="pizza 11">
-        <img class="img-fluid" src="./images/pizza_8.jpg" alt="pizza 12">
-      </div>
-    </section>
-    <!------- Pizza End ------->
-  
-    <!------- Offers Start ------->
-    <section class="offers" id="offers">
-      <div class="offers-header text-center">
-        <h1>ENJOY EXCITING OFFERS AND DISCOUNTS EVERYDAY</h1>
-        <h2><span></span> new day, new deals <span></span></h2>
-      </div>
-      <div class="offers-body d-flex flex-row justify-content-center flex-wrap">
-        <img src="./images/offer_1.jpg" alt="offer 1">
-        <img src="./images/offer_2.jpg" alt="offer 2">
-        <img src="./images/offer_3.jpg" alt="offer 3">
-      </div>
+    </div>
   </section>
-  <!------- Offers End ------->
+  <!------- About End ------->
+
+  <!------- Services Start ------->
+  <section class="services" id="services">
+    <div class="section-header">
+      <div class="section-title text-center">
+        <h1>SERVICES</h1>
+        <h4> what we offer </h4>
+      </div>
+      <a href="#services">Learn more</a>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 gy-5 text-center">
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="./images/company_logo.png" class="card-img-top" alt="best quality">
+          <div class="card-body">
+            <h3 class="card-title">Best Quality</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, quisquam.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="./images/premium_service.png" class="card-img-top" alt="premium service">
+          <div class="card-body">
+            <h3 class="card-title">Premium Service</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nesciunt!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="./images/beautiful_surrounding.png" class="card-img-top" alt="beautiful surroundings">
+          <div class="card-body">
+            <h3 class="card-title">Beautiful Surroundings</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, optio.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="./images/private_workspace.png" class="card-img-top" alt="private workspace">
+          <div class="card-body">
+            <h3 class="card-title">Private WorkSpace</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, provident.</p>
+          </div>
+         </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="./images/relaxing_environment.png" class="card-img-top" alt="relaxing environment">
+          <div class="card-body">
+            <h3 class="card-title">Relaxing Environment</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, provident.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 align-items-center">
+          <img src="./images/free_delivery.png" class="card-img-top" alt="free delivery">
+          <div class="card-body">
+            <h3 class="card-title">Free Delivery</h3>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, provident.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!------- Services End ------->
+    
+  <!------- Pizza Start ------->
+  <section class="pizza" id="pizza">
+    <div class="section-header">
+      <div class="section-title text-center">
+        <h1>MOST LOVED PIZZAS</h1>
+        <h4> all time favorites </h4>
+      </div>
+      <a href="#pizza">Order now</a>
+    </div>
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
+      <img class="img-fluid" src="./images/pizza_4.jpg" alt="pizza 1">
+      <img class="img-fluid" src="./images/pizza_5.jpg" alt="pizza 2">
+      <img class="img-fluid" src="./images/pizza_6.jpg" alt="pizza 3">
+      <img class="img-fluid" src="./images/pizza_7.jpg" alt="pizza 4">
+      <img class="img-fluid" src="./images/pizza_8.jpg" alt="pizza 5">
+      <img class="img-fluid" src="./images/pizza_7.jpg" alt="pizza 6">
+      <img class="img-fluid" src="./images/pizza_9.jpg" alt="pizza 7">
+      <img class="img-fluid" src="./images/pizza_4.jpg" alt="pizza 8">
+      <img class="img-fluid" src="./images/pizza_6.jpg" alt="pizza 9">
+      <img class="img-fluid" src="./images/pizza_4.jpg" alt="pizza 10">
+      <img class="img-fluid" src="./images/pizza_5.jpg" alt="pizza 11">
+      <img class="img-fluid" src="./images/pizza_8.jpg" alt="pizza 12">
+    </div>
+  </section>
+  <!------- Pizza End ------->
 
   <!------- Reviews Start ------->
   <section class="reviews" id="reviews">
     <div class="section-header">
-      <div class="section-title">
+      <div class="section-title text-center">
         <h1>REVIEWS</h1>
-        <h2><span></span> top comments <span></span></h2>
+        <h4> top comments </h4>
       </div>
       <a href="#reviews">Read more</a>
     </div>
@@ -294,73 +275,48 @@
           <div class="row">
             <div class="d-none d-sm-block col-12 col-sm-6 col-md-4">
               <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
+                <img src="./images/review-pic.png" alt="Alphanso Adams">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>David Louise</h2>
+                <h3>Alphanso Adams</h3>
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
               <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
+                <img src="./images/review-pic.png" alt="Martin Walker">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>Martin Adams</h2>
+                <h3>Martin Walker</h3>
               </div>
             </div>
             <div class="d-none d-md-block small col-12 col-sm-6 col-md-4">
               <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
+                <img src="./images/review-pic.png" alt="John Lugo">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>Lorean Fernandez</h2>
+                <h3>John Lugo</h3>
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel-item" data-bs-interval="2000">
+        <div class="carousel-item" data-bs-interval="10000">
           <div class="row">
             <div class="d-none d-sm-block col-12 col-sm-6 col-md-4">
               <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
+                <img src="./images/review-pic.png" alt="Rick Gould">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>Mario Radar</h2>
+                <h3>Rick Gould</h3>
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4">
               <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
+                <img src="./images/review-pic.png" alt="John Konrad">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>Sergio Pierra</h2>
+                <h3>John Konrad</h3>
               </div>
             </div>
             <div class="d-none d-md-block col-12 col-sm-6 col-md-4">
               <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
+                <img src="./images/review-pic.png" alt="Jeff Riggs">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>Steven Ramos</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="row">
-            <div class="d-none d-sm-block col-12 col-sm-6 col-md-4">
-              <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>John Lugo</h2>
-              </div>
-            </div>
-            <div class="col-12 col-sm-6 col-md-4">
-              <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>Captain Walker</h2>
-              </div>
-            </div>
-            <div class="d-none d-md-block col-12 col-sm-6 col-md-4">
-              <div class="review-box">
-                <img src="./images/review-pic.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, consequuntur.</p>
-                <h2>Alphanso Adams</h2>
+                <h3>Jeff Riggs</h3>
               </div>
             </div>
           </div>
@@ -409,12 +365,11 @@
       </div>
     </div>
     <div class="text-center footer-end-text">
-      Copyright ©2021 All rights reserved | <span>pizza con amore - pizza with love</span>
+      Copyright ©2021 All rights reserved <span>|</span> <nbsp>pizza con amore - pizza with love</nbsp>
     </div>
   </footer>
 
-  <!-- Javascript Files -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>
