@@ -277,6 +277,10 @@ header {
   width: 6.3rem;
 }
 
+.pizza img {
+  border-radius: 0.9rem;
+}
+
 /******** REVIEWS CSS ********/
 
 .reviews {
