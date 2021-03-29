@@ -241,14 +241,14 @@ header {
 
 .services .card {
   border-radius: 1rem;
-  border: 2px solid rgba(253, 0, 0, .1);
-  box-shadow: 5px 5px 5px 1px rgba(253, 0, 0, .3);
+  border: 2px solid rgba(253, 0, 0, .05);
+  box-shadow: 4px 4px 5px 1px rgba(253, 0, 0, 0.349);
   transition: all .4s ease;
   padding: 1rem .2rem .1rem;
 }
 
 .services .card:hover {
-  box-shadow: 10px 10px 10px 1px rgba(253, 0, 0, .2);
+  box-shadow: 8px 8px 10px 1px rgba(253, 0, 0, .349);
 }
 
 .services .card img {
