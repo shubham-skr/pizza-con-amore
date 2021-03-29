@@ -1,13 +1,12 @@
 /****** CSS VARIABLES ******/
 
 :root {
-    --Poppins: "Poppins", sans-serif;
-    --OpenSans: "Open Sans", sans-serif;
-    --primary-color-1: #f00;
-    --primary-color-2: #000;
-    --secondary-color-1: rgba(240, 0, 0, 0.7);
-    --secondary-color-2: #2e2c2cd8;
-    --shadow-secondary: 0 10px 40px rgba(0, 0, 0, 0.2);
+  --Poppins: "Poppins", sans-serif;
+  --OpenSans: "Open Sans", sans-serif;
+  --primary-color-1: #f00;
+  --primary-color-2: #000;
+  --secondary-color-1: rgba(240, 0, 0, 0.7);
+  --secondary-color-2: #2e2c2cc2;
 }
 
 /****** GLOBAL CSS ******/
@@ -15,422 +14,405 @@
 *,
 ::before,
 ::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    max-width: 1400px;
+  max-width: 1400px;
 }
+
+/****** COMMON CSS ******/
 
 .about,
 .services,
 .pizza,
-.offers,
 .reviews {
-    margin-top: 8rem;
-    padding-top: 2rem;
+  margin-top: 8rem;
+  padding-top: 2rem;
 }
 
-.about {
-    margin-bottom: 10rem;
-}
-
-.carousel-control-prev, 
+.carousel-control-prev,
 .carousel-control-next {
-    width: 5%;
+  width: 5%;
 }
 
 h1,
-h2, 
+h2,
 h3,
 h4 {
-    font-family: var(--Poppins);
+  font-family: var(--Poppins);
 }
 
-h2, 
+h2,
 h3,
 h4 {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 700;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 h2 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 h3 {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 h4 {
-    font-size: 0.9rem;
+  font-size: 0.9rem;
 }
 
 h5 {
-    font-size: 0.77rem;
-    font-weight: 700;
+  font-size: 0.77rem;
+  font-weight: 700;
 }
 
 p {
-    font-family: var(--OpenSans);
-    font-size: 0.9rem;
-    color: --secondary-color-2;
+  font-family: var(--OpenSans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: --secondary-color-2;
 }
 
 .section-header {
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .section-title h1 {
-    margin-bottom: 0.1rem;
-    color: var(--primary-color-1);
-    letter-spacing: 0.05rem;
+  margin-bottom: 0.1rem;
+  color: var(--primary-color-1);
+  letter-spacing: 0.05rem;
 }
 
 .section-title h4 {
-    position: relative;
-    color: var(--secondary-color-1);
+  position: relative;
+  color: var(--secondary-color-1);
 }
 
 .section-title h4:before,
 .section-title h4:after {
-    content: " ";
-    display: inline-block;
-    height: 0.15rem;
-    background-color: var(--primary-color-1);
+  content: " ";
+  display: inline-block;
+  height: 0.15rem;
+  background-color: var(--primary-color-1);
 }
 
 .section-header a {
-    display: inline-block;
-    padding: 0.4rem 0.6rem;
-    font-family: var(--Poppins);
-    font-size: 0.9rem;
-    color: white; 
-    text-decoration: none;
-    border: 2px solid var(--primary-color-1);
-    background-color: var(--primary-color-1);
-    border-radius: 0.2rem;
-    transition: all 0.3s ease;
-    box-shadow: 5px 7px 5px rgba(253, 0, 0, 0.3);
+  display: inline-block;
+  padding: 0.4rem 0.6rem;
+  font-family: var(--Poppins);
+  font-size: 0.9rem;
+  color: white;
+  text-decoration: none;
+  border: 2px solid var(--primary-color-1);
+  background-color: var(--primary-color-1);
+  border-radius: 0.2rem;
+  transition: all 0.3s ease;
+  box-shadow: 5px 7px 5px rgba(253, 0, 0, 0.3);
 }
 
 .section-header a:hover {
-    background: white;
-    color: var(--primary-color-1);
+  background: white;
+  color: var(--primary-color-1);
 }
 
 /******** Header CSS ********/
 
 header {
-    font-family: var(--Poppins);
+  font-family: var(--Poppins);
 }
 
 .navbar .navbar-brand {
-    margin-left: 4rem;
-    font-size: 0.85rem;
-    color: var(--primary-color-1);
+  margin-left: 5rem;
+  font-size: 0.85rem;
+  color: var(--primary-color-1);
 }
 
-.navbar .nav-link{
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: var(--primary-color-2);
+.navbar .nav-link {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-color-2);
 }
 
 .navbar .nav-link:hover {
-    color: var(--primary-color-1);
+  color: var(--primary-color-1);
 }
 
 .navbar .nav-link i {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
-.home .carousel-control-prev, 
+.home .carousel-control-prev,
 .home .carousel-control-next {
-    color: var(--primary-color-2);
-} 
+  color: var(--primary-color-2);
+}
 
 /******** HOME CSS ********/
 
 .home .home-left,
 .home .home-right {
-    height: 30rem;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .home .home-right {
-    background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .home .home-body {
-    margin: 0 5rem;
+  margin: 0 5rem;
 }
 
 .home .home-body h1 {
-    color: var(--primary-color-1);
-    letter-spacing: 0.1rem;
-    transform: translateX(-0.5%);
+  color: var(--primary-color-1);
+  letter-spacing: 0.1rem;
+  transform: translateX(-0.5%);
 }
 
 .home .home-body p {
-    text-align: justify;
+  font-size: 0.9rem;
+  text-align: justify;
 }
 
 .home img {
-    width: 35vw;
+  width: 35vw;
 }
 
 .home button i {
-    font-size: 1.5rem;
-    color: black;
+  font-size: 1.5rem;
+  color: black;
 }
 
 /******** ABOUT CSS ********/
 
 .about .chef-hat img {
-    width: 70%;
-    opacity: 0.4;
-}
-
-.about .column:last-child {
-    position: relative;
+  width: 70%;
+  opacity: 0.4;
 }
 
 .about-body {
-    position: absolute;
-    left: -8rem;
-    width: 100%;
-    padding: 3rem 3rem;
-    background: white;
-    box-shadow: var(--shadow-secondary);
-    z-index: 1; 
+  position: absolute;
+  top: -2rem;
+  left: -8rem;
+  padding: 3rem 3rem;
+  background: white;
+  z-index: 1;
 }
 
 .about .about-body h1 {
-    margin-bottom: 0.2rem;
+  margin-bottom: 0.2rem;
 }
 
 .about .about-body p {
-    color: rgba(0, 0, 0, 0.8);
-    text-align: justify;
+  text-align: justify;
 }
 
 /******** SERVICES CSS ********/
 
 .services {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .services .section-title h4:before,
 .services .section-title h4:after {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
 .services .card {
-    width: 24vw;
-    border-radius: 1rem;
-    border: 2px solid rgba(253, 0, 0, 0.1);
-    box-shadow: 5px 5px 5px 1px rgba(253, 0, 0, .3);
-    transition: all 0.4s ease;
+  border-radius: 1rem;
+  border: 2px solid rgba(253, 0, 0, 0.1);
+  box-shadow: 5px 5px 5px 1px rgba(253, 0, 0, 0.3);
+  transition: all 0.4s ease;
+  padding: 1rem 0.2rem 0.1rem;
 }
 
 .services .card:hover {
-    box-shadow: 10px 10px 10px 1px rgba(253, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px 1px rgba(253, 0, 0, 0.2);
 }
 
 .services .card img {
-    width: 30%;
-    margin-top: 1rem;
-}
-
-.services .card-body {
-    padding: 1.5rem 0 1rem 0;
+  width: 30%;
 }
 
 .services .card-title {
-    color: var(--primary-color-1);
+  color: var(--primary-color-1);
 }
 
 .services .card-text {
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--primary-color-2);
+  font-weight: 600;
+  color: var(--primary-color-2);
 }
 
 /******** PIZZA CSS ********/
 
 .pizza {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pizza .section-title h4:before,
 .pizza .section-title h4:after {
-    width: 6.3rem;
+  width: 6.3rem;
 }
 
 /******** REVIEWS CSS ********/
 
 .reviews {
-    width: 85%;
-    margin-left: auto;
-    margin-right: auto;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .reviews .section-title h4:before,
 .reviews .section-title h4:after {
-    width: 1rem;
+  width: 1rem;
 }
 
 .reviews .review-box {
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
-    padding: 0.5rem;
-    text-align: center;
-    border-radius: 0.5rem;
-    border: 0.2rem solid var(--primary-color-1);
-    background-color: var(--primary-color-1);
-    transition: all 0.6s ease;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 0.2rem solid var(--primary-color-1);
+  background-color: var(--primary-color-1);
+  transition: all 0.6s ease;
 }
 
 .reviews .review-box p {
-    margin-top: 1rem;
-    font-size: 0.85rem;
-    color: white;
-    font-weight: 600;
-    transition: all 0.6s ease;
-} 
+  margin-top: 1rem;
+  color: white;
+  font-weight: 600;
+  transition: all 0.6s ease;
+}
 
 .reviews .review-box h3 {
-    color: white;
-    font-weight: 600;
-    transition: all 0.6s ease;
+  color: white;
+  font-weight: 600;
+  transition: all 0.6s ease;
 }
 
 .reviews .review-box img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-    border: 0.4rem solid white;
-    transition: all 0.6s ease;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 0.4rem solid white;
+  transition: all 0.6s ease;
 }
 
 .reviews .review-box:hover {
-    background: white;
+  background: white;
 }
 
-.reviews .review-box:hover p{
-    color: var(--primary-color-2);
+.reviews .review-box:hover p {
+  color: var(--primary-color-2);
 }
 
 .reviews .review-box:hover h3 {
-    color: var(--primary-color-1);
+  color: var(--primary-color-1);
 }
 
 .reviews .review-box:hover img {
-    border-color:var(--primary-color-1);
+  border-color: var(--primary-color-1);
 }
 
 .reviews .carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: -4rem !important;
+  position: absolute;
+  right: 0;
+  bottom: -4rem !important;
 }
 
 .reviews .carousel-indicators button {
-    margin-right: 0.6rem;
-    width: 0.6rem;
-    height: 0.6rem;
-    border-radius: 50%;
-    background-color: var(--primary-color-1) !important;
+  margin-right: 0.6rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background-color: var(--primary-color-1) !important;
 }
 
 .reviews .carousel-control-prev {
-    transform: translateX(-100%);
+  transform: translateX(-100%);
 }
 
 .reviews .carousel-control-next {
-    transform: translateX(100%);
+  transform: translateX(100%);
 }
 
 .reviews .carousel button i {
-    font-size: 2rem;
-    color: var(--primary-color-1);
+  font-size: 2rem;
+  color: var(--primary-color-1);
 }
 
 /******** FOOTER CSS ********/
 
 footer {
-    margin-top: 15rem;
-    padding: 3rem;
-    color: white;
-    background: #161616;
+  margin-top: 15rem;
+  padding: 3rem;
+  color: white;
+  background: #161616;
 }
 
 footer h2 {
-    color: var(--primary-color-1);
-}
-
-footer p {
-    font-size: 0.85rem;
+  color: var(--primary-color-1);
 }
 
 footer .footer-end-text {
-    margin-top: 5rem;
-    font-size: 0.7rem;
-    letter-spacing: 0.5px;
-}
-  
-footer .footer-end-text > nbsp {
-    color: var(--primary-color-1);
+  margin-top: 5rem;
+  font-size: 0.7rem;
+  font-family: var(--OpenSans);
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 footer .footer-end-text > span {
-    margin: 0 0.5rem;
+  margin: 0 0.5rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--primary-color-1);
 }
-  
+
 footer input {
-    border: none !important;
+  border: none !important;
 }
-  
+
 footer input::placeholder {
-    color: var(--secondary-color-2) !important;
+  color: var(--secondary-color-2) !important;
 }
-  
+
 footer .socials i {
-    margin-bottom: 1rem;
-    margin-right: 0.8rem;
-    font-size: 1.2rem;
-    color: white;
-    transition: all 0.3s ease;
+  margin-bottom: 1rem;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+  color: white;
+  transition: all 0.3s ease;
 }
 
 footer .socials .fa-facebook-f:hover {
-    color: rgb(0, 60, 255);
+  color: rgb(0, 60, 255);
 }
 
 footer .socials .fa-instagram:hover {
-    color: rgb(255, 2, 141);
+  color: rgb(255, 2, 141);
 }
 
 footer .socials .fa-twitter:hover {
-    color: rgb(0, 162, 255);
+  color: rgb(0, 162, 255);
 }
 
 footer .socials .fa-youtube:hover {
-    color: rgb(226, 5, 5);
+  color: rgb(226, 5, 5);
 }

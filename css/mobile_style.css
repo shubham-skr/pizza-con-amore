@@ -1,0 +1,93 @@
+@media only screen and (min-width: 1400px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /****** ABOUT CSS ******/
+  .about {
+    margin-bottom: 10rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /****** ABOUT CSS ******/
+  .about {
+    margin-bottom: 8rem;
+  }
+
+  .about .chef-hat img {
+    width: 50%;
+    opacity: 0.4;
+  }
+
+  .about-body {
+    position: static;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /****** COMMON CSS ******/
+  .about,
+  .services,
+  .pizza,
+  .reviews {
+    margin-top: 5rem;
+    padding-top: 2rem;
+  }
+
+  /****** HEADER CSS ******/
+  .navbar .navbar-brand {
+    margin-left: 9%;
+  }
+
+  /****** HOME CSS ******/
+
+  .home .home-left,
+  .home .home-right {
+    height: 20rem;
+  }
+
+  .home .home-body {
+    margin: 0 10%;
+  }
+
+  .home img {
+    width: 55vw;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /****** COMMON CSS ******/
+  .section-header {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+
+  .section-title {
+    margin-bottom: 1.5rem;
+  }
+
+  /****** HOME CSS ******/
+  .home img {
+    width: 65vw;
+  }
+
+  /****** SERVICES CSS ******/
+  .services {
+    width: 90%;
+  }
+
+  /****** PIZZA CSS ******/
+  .pizza {
+    width: 90%;
+  }
+
+  /****** REVIEWS CSS ******/
+  .reviews {
+    width: 90%;
+  }
+}
