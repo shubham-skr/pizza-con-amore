@@ -5,7 +5,7 @@
   --OpenSans: "Open Sans", sans-serif;
   --primary-color-1: #f00;
   --primary-color-2: #000;
-  --secondary-color-1: rgba(240, 0, 0, 0.7);
+  --secondary-color-1: rgba(240, 0, 0, .7);
   --secondary-color-2: #2e2c2cc2;
 }
 
@@ -65,17 +65,17 @@ h3 {
 }
 
 h4 {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
 
 h5 {
-  font-size: 0.77rem;
+  font-size: .77rem;
   font-weight: 700;
 }
 
 p {
   font-family: var(--OpenSans);
-  font-size: 0.85rem;
+  font-size: .85rem;
   font-weight: 500;
   color: --secondary-color-2;
 }
@@ -88,9 +88,9 @@ p {
 }
 
 .section-title h1 {
-  margin-bottom: 0.1rem;
+  margin-bottom: .1rem;
   color: var(--primary-color-1);
-  letter-spacing: 0.05rem;
+  letter-spacing: .05rem;
 }
 
 .section-title h4 {
@@ -102,22 +102,22 @@ p {
 .section-title h4:after {
   content: " ";
   display: inline-block;
-  height: 0.15rem;
+  height: .15rem;
   background-color: var(--primary-color-1);
 }
 
 .section-header a {
   display: inline-block;
-  padding: 0.4rem 0.6rem;
+  padding: .4rem .6rem;
   font-family: var(--Poppins);
-  font-size: 0.9rem;
+  font-size: .9rem;
   color: white;
   text-decoration: none;
   border: 2px solid var(--primary-color-1);
   background-color: var(--primary-color-1);
-  border-radius: 0.2rem;
-  transition: all 0.3s ease;
-  box-shadow: 5px 7px 5px rgba(253, 0, 0, 0.3);
+  border-radius: .2rem;
+  transition: all .3s ease;
+  box-shadow: 5px 7px 5px rgba(253, 0, 0, .3);
 }
 
 .section-header a:hover {
@@ -133,12 +133,12 @@ header {
 
 .navbar .navbar-brand {
   margin-left: 5rem;
-  font-size: 0.85rem;
+  font-size: .85rem;
   color: var(--primary-color-1);
 }
 
 .navbar .nav-link {
-  font-size: 0.9rem;
+  font-size: .9rem;
   font-weight: 600;
   color: var(--primary-color-2);
 }
@@ -156,6 +156,14 @@ header {
   color: var(--primary-color-2);
 }
 
+.navbar .navbar-toggler i {
+  color: var(--primary-color-1);
+}
+
+.navbar .navbar-toggler:focus{
+  box-shadow: none;
+}
+
 /******** HOME CSS ********/
 
 .home .home-left,
@@ -167,7 +175,7 @@ header {
 }
 
 .home .home-right {
-  background-color: rgba(0, 0, 0, 0.05);
+  background-color: rgba(0, 0, 0, .05);
 }
 
 .home .home-body {
@@ -176,12 +184,12 @@ header {
 
 .home .home-body h1 {
   color: var(--primary-color-1);
-  letter-spacing: 0.1rem;
-  transform: translateX(-0.5%);
+  letter-spacing: .1rem;
+  transform: translateX(-.5%);
 }
 
 .home .home-body p {
-  font-size: 0.9rem;
+  font-size: .9rem;
   text-align: justify;
 }
 
@@ -198,7 +206,7 @@ header {
 
 .about .chef-hat img {
   width: 70%;
-  opacity: 0.4;
+  opacity: .4;
 }
 
 .about-body {
@@ -211,7 +219,7 @@ header {
 }
 
 .about .about-body h1 {
-  margin-bottom: 0.2rem;
+  margin-bottom: .2rem;
 }
 
 .about .about-body p {
@@ -233,14 +241,14 @@ header {
 
 .services .card {
   border-radius: 1rem;
-  border: 2px solid rgba(253, 0, 0, 0.1);
-  box-shadow: 5px 5px 5px 1px rgba(253, 0, 0, 0.3);
-  transition: all 0.4s ease;
-  padding: 1rem 0.2rem 0.1rem;
+  border: 2px solid rgba(253, 0, 0, .1);
+  box-shadow: 5px 5px 5px 1px rgba(253, 0, 0, .3);
+  transition: all .4s ease;
+  padding: 1rem .2rem .1rem;
 }
 
 .services .card:hover {
-  box-shadow: 10px 10px 10px 1px rgba(253, 0, 0, 0.2);
+  box-shadow: 10px 10px 10px 1px rgba(253, 0, 0, .2);
 }
 
 .services .card img {
@@ -283,35 +291,35 @@ header {
 }
 
 .reviews .review-box {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-  padding: 0.5rem;
+  margin-right: .5rem;
+  margin-left: .5rem;
+  padding: .5rem;
   text-align: center;
-  border-radius: 0.5rem;
-  border: 0.2rem solid var(--primary-color-1);
+  border-radius: .5rem;
+  border: .2rem solid var(--primary-color-1);
   background-color: var(--primary-color-1);
-  transition: all 0.6s ease;
+  transition: all .6s ease;
 }
 
 .reviews .review-box p {
   margin-top: 1rem;
   color: white;
   font-weight: 600;
-  transition: all 0.6s ease;
+  transition: all .6s ease;
 }
 
 .reviews .review-box h3 {
   color: white;
   font-weight: 600;
-  transition: all 0.6s ease;
+  transition: all .6s ease;
 }
 
 .reviews .review-box img {
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  border: 0.4rem solid white;
-  transition: all 0.6s ease;
+  border: .4rem solid white;
+  transition: all .6s ease;
 }
 
 .reviews .review-box:hover {
@@ -337,9 +345,9 @@ header {
 }
 
 .reviews .carousel-indicators button {
-  margin-right: 0.6rem;
-  width: 0.6rem;
-  height: 0.6rem;
+  margin-right: .6rem;
+  width: .6rem;
+  height: .6rem;
   border-radius: 50%;
   background-color: var(--primary-color-1) !important;
 }
@@ -372,14 +380,14 @@ footer h2 {
 
 footer .footer-end-text {
   margin-top: 5rem;
-  font-size: 0.7rem;
+  font-size: .7rem;
   font-family: var(--OpenSans);
   font-weight: 600;
-  letter-spacing: 0.5px;
+  letter-spacing: .5px;
 }
 
 footer .footer-end-text > span {
-  margin: 0 0.5rem;
+  margin: 0 .5rem;
   font-weight: 700;
   font-size: 1rem;
   color: var(--primary-color-1);
@@ -395,10 +403,10 @@ footer input::placeholder {
 
 footer .socials i {
   margin-bottom: 1rem;
-  margin-right: 0.8rem;
+  margin-right: .8rem;
   font-size: 1.2rem;
   color: white;
-  transition: all 0.3s ease;
+  transition: all .3s ease;
 }
 
 footer .socials .fa-facebook-f:hover {
