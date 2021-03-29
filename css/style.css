@@ -278,7 +278,7 @@ header {
 }
 
 .pizza img {
-  border-radius: 0.9rem;
+  border-radius: 5%;
 }
 
 /******** REVIEWS CSS ********/
@@ -299,7 +299,7 @@ header {
   margin-left: .5rem;
   padding: .5rem;
   text-align: center;
-  border-radius: .5rem;
+  border-radius: 3%;
   border: .2rem solid var(--primary-color-1);
   background-color: var(--primary-color-1);
   transition: all .6s ease;
