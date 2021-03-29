@@ -1,0 +1,42 @@
+@media only screen and (max-width: 768px) {
+    header, section {
+        margin-bottom: 8rem;
+    }
+
+    
+
+    .our-services .container {
+        border: 1px solid red;
+    }
+
+    header .carousel .pizza-body {
+        padding: 10%;
+    }
+
+    header .carousel .pizza-img {
+        padding: 5% 0;
+    }
+
+    header .pizza-img img {
+        width: 70%;
+    }
+    
+    .section-1 .row .col-md-6 .panel {
+        width: 90%;
+        position:static;
+        margin: auto;
+    }
+
+    .section-1 {
+        padding: 2rem 0 2rem 0;
+    }
+
+    .medium, .small{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+}
+

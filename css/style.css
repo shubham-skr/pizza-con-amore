@@ -1,0 +1,466 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.about,
+.services,
+.pizza,
+.offers,
+.reviews {
+    margin-top: 4rem;
+    padding-top: 6rem;
+}
+
+:root {
+    --Poppins: "Poppins", sans-serif;
+    --Roboto: "Roboto", sans-serif;
+    --light-black: #2e2c2caf;
+    --bg-gradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.9); 
+}
+
+/******** Header CSS ********/
+
+header .navbar .navbar-brand {
+    font-size: 0.85rem;
+    font-weight: bold;
+    font-family: var(--Poppins);
+    color: #f00000;
+    margin-left: 4rem;
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 0.9rem;
+    font-family: var(--Poppins);
+    font-weight: 600;
+    color: black;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #f00000;
+}
+
+.navbar .nav-item .nav-link i {
+    font-size: 1rem;
+}
+
+/******** HOME CSS ********/
+
+.home .home-left,
+.home .home-right {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 33rem;
+}
+
+.home .home-right {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.home .home-left .home-body {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.home .home-left .home-body h3 {
+    font-family: var(--Roboto);
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.home .home-left .home-body h1 {
+    font-family: var(--Poppins);
+    font-size: 2rem;
+    transform: translateX(-0.15rem);
+    font-weight: bold;
+    color: #f00000;
+    letter-spacing: 0.1rem;
+}
+
+.home .home-left .home-body p {
+    font-family: var(--Roboto);
+    font-size: 1rem;
+    color:rgba(0, 0, 0, 0.7);
+    text-align: justify;
+}
+
+.home .home-right img {
+    width: 40vw;
+}
+
+.home .carousel-control-prev, 
+.home .carousel-control-next {
+    width: 5%;
+}
+
+.home button i {
+    font-size: 1.5rem;
+    color: black;
+}
+
+/******** ABOUT CSS ********/
+
+.about .chef-hat img {
+    width: 70%;
+    opacity: 0.5;
+}
+
+.about .column:last-child {
+    position: relative;
+}
+
+.about .about-body {
+    position: absolute;
+    top: 1rem;
+    left: -8rem;
+    width: 100%;
+    padding: 3rem 3rem;
+    background: white;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+    z-index: 1; 
+}
+
+.about .about-body h1 {
+    margin-bottom: 0.2rem;
+    font-family: var(--Poppins);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.about .about-body h2 {
+    font-family: var(--Poppins);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.about .about-body p {
+    font-size: 0.9rem;
+    font-family: var(--Roboto);
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: justify;
+}
+
+/******** SERVICES CSS ********/
+
+.services {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services .card img {
+    width: 30%;
+    margin-top: 1rem;
+}
+
+.section-header{
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header .section-title {
+    text-align: center;
+}
+
+.section-header .section-title h1{
+    font-family: var(--Poppins);
+    font-size: 2rem;
+    color: #f00000;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    margin-bottom: 0.1rem;
+}
+
+.section-header .section-title h2 {
+    font-family: var(--Poppins);
+    font-size: 0.9rem;
+    color: rgba(240, 0, 0, 0.7);
+    font-weight: 600;
+}
+
+.section-header .section-title h2 span {
+    display: inline-block;
+    width: 1rem;
+    background-color: #f00000;
+    height: 0.2rem;
+}
+
+.services .section-header .section-title h2 span {
+    width: 1.4rem;
+}
+
+.section-header a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: var(--Poppins);
+    font-size: 0.9rem;
+    color: white;
+    padding: 0.4rem 0.6rem;
+    border: 2px solid #f00000;
+    background-color: #f00000;
+    border-radius: 0.2rem;
+    transition: all 0.3s ease;
+    box-shadow: 5px 7px 5px rgba(253, 0, 0, 0.3);
+}
+
+.section-header a:hover {
+    background: white;
+    color: #f00000;
+}
+
+.services .card {
+    border: none;
+    border: 2px solid #f000007a;
+    width: 24vw;
+    box-shadow: 0 3px 5px rgba(253, 0, 0, 0.3);
+    transition: box-shadow 0.5s ease;
+}
+
+.services .card:hover {
+    box-shadow: 0 4px 5px 6px rgba(253, 0, 0, 0.2);
+}
+
+.services .card-body {
+    padding: 1.5rem 0 1rem 0;
+}
+
+.services .card .card-body .card-title {
+    font-family: var(--Poppins);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.services .card .card-text {
+    font-family: var(--Roboto);
+    font-size: 0.9rem;
+    color:rgba(0, 0, 0, 0.7);
+}
+
+/******** PIZZA CSS ********/
+
+.pizza {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pizza .section-header .section-title h2 span {
+    width: 6rem;
+}
+
+/******** OFFERS CSS ********/
+
+.offers .offers-body img {
+    display: block;
+    width: 16rem;
+    height: 18rem;
+    margin-right: 3rem;
+    border-radius: 0.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease;
+}
+
+.offers img:hover {
+    transform: scale(1.1);
+}
+
+.offers .offers-body img:last-child {
+    margin-right: 0;
+}
+
+.offers {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offers .offers-header h1{
+    font-family: var(--Poppins);
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.05rem;
+}
+
+.offers .offers-header h2 {
+    font-family: var(--Poppins);
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+}
+
+.offers .offers-header h2 span {
+    display: inline-block;
+    width: 21rem;
+    height: 0.2rem;
+    background-color: black;
+}
+
+.offers .offers-header {
+    margin-bottom: 4rem;
+}
+
+/******** REVIEWS CSS ********/
+
+.reviews {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reviews .carousel .review-box {
+    text-align: center;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    transition: all 0.6s ease;
+    padding: 0.5rem;
+    background-color: #f00000;
+    border: 3px solid rgba(253, 0, 0, 0.5);
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.reviews .carousel .review-box p {
+    font-family: var(--Roboto);
+    font-size: 0.9rem;
+    margin-top: 1rem;
+    color: white;
+    font-weight: 500;
+    transition: all 0.6s ease;
+} 
+
+.reviews .carousel .review-box h2 {
+    font-family: var(--Poppins);
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+    transition: all 0.6s ease;
+}
+
+.reviews .carousel .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -4rem !important;
+}
+
+.reviews .carousel .carousel-indicators button {
+    background-color: #f00000 !important;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+}
+
+.reviews .carousel .review-box img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    transition: all 0.6s ease;
+    border: 5px solid white;
+}
+
+.reviews .carousel .review-box:hover {
+    background: white;
+}
+
+.reviews .carousel .review-box:hover p{
+    color:black;
+}
+
+.reviews .carousel .review-box:hover h2 {
+    color: black;
+}
+
+.reviews .carousel .review-box:hover img {
+    border-color: #f00000;
+}
+
+
+.reviews .carousel .carousel-control-prev, 
+.reviews .carousel .carousel-control-next {
+    width: 5%;
+    transform: translateX(-100%);
+}
+
+.reviews .carousel .carousel-control-prev {
+    transform: translateX(-100%);
+}
+
+.reviews .carousel .carousel-control-next {
+    transform: translateX(100%);
+}
+
+.reviews .carousel button i {
+    font-size: 2rem;
+    color: #f00000;
+}
+
+/******** FOOTER CSS ********/
+
+footer {
+    background: #1a1919;
+    margin-top: 15rem;
+    padding: 3rem;
+    color: white;
+    font-family: var(--Roboto);
+}
+
+footer h2 {
+    color: #f00000;
+    font-size: 1.1rem;
+    font-family: var(--Poppins);
+    font-weight: 600;
+}
+
+footer p {
+    font-size: 0.85rem;
+}
+
+footer .footer-end-text {
+    font-size: 0.7rem;
+    margin-top: 5rem;
+    letter-spacing: 0.5px;
+}
+  
+footer .footer-end-text > span {
+    color: #f00000;
+}
+  
+footer input {
+    border: none !important;
+}
+  
+footer input::placeholder {
+    color: black !important;
+}
+  
+footer .socials i {
+    color: white;
+    margin-bottom: 1rem;
+    margin-right: 0.8rem;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+footer .socials .fa-facebook-f:hover {
+    color: rgb(0, 110, 255);
+}
+
+footer .socials .fa-instagram:hover {
+    color: rgb(255, 2, 129);
+}
+
+footer .socials .fa-twitter:hover {
+    color: rgb(0, 162, 255);
+}
+
+footer .socials .fa-youtube:hover {
+    color: rgb(226, 5, 5);
+}
