@@ -210,7 +210,7 @@ header {
 
 .about-body {
   position: absolute;
-  top: -2rem;
+  top: 0;
   left: -8rem;
   padding: 3rem 3rem;
   background: white;
@@ -395,9 +395,8 @@ footer .footer-end-text {
 }
 
 footer .footer-end-text > span {
-  margin: 0 .5rem;
-  font-weight: 700;
-  font-size: 1rem;
+  display: block;
+  margin-top: 0.1rem;
   color: var(--primary-color-1);
 }
 

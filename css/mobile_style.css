@@ -26,7 +26,7 @@
   }
 
   .about .chef-hat img {
-    width: 50%;
+    width: 45%;
     opacity: 0.4;
   }
 
@@ -73,6 +73,11 @@
   .home img {
     width: 65%;
   }
+
+  /****** ABOUT CSS ******/
+  .about .chef-hat img {
+    width: 50%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -89,6 +94,11 @@
   /****** HOME CSS ******/
   .home img {
     width: 80%;
+  }
+
+  /****** ABOUT CSS ******/
+  .about .chef-hat img {
+    width: 60%;
   }
 
   /****** SERVICES CSS ******/
