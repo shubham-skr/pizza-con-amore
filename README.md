@@ -31,7 +31,8 @@ Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
 
 #### 6. Reviews Carousel - Bootstrap 5 Carousel 
 <img src="./website screenshots/reviews2.png" alt="reviews">
-
+<pre>
+</pre>
 #### 7. Footer Section - Bootstrap 5 Grid and Input 
 <pre>
 </pre>
@@ -44,16 +45,19 @@ Several other features / classes of Bootstrap are used through out the project.
 
 
 </pre>
+
 ### pizza con amore Website Link 
     <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
 <pre>
 
 
 </pre>
+
 #### References
   1. Daily Tuition    - Youtube
   2. Code Galaxy      - Youtube
   3. Thapa Technical  - Youtube
+  
 <pre>
 
 </pre>
