@@ -8,8 +8,7 @@ Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
 
 </pre>
 ### Features and Screenshots
-<pre>
-</pre>
+
 #### 1. Navigation Bar - Bootstrap 5 Navbar 
 <img src="./website screenshots/header2.png" alt="navbar">
 
