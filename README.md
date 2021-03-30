@@ -8,7 +8,8 @@ Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
 
 </pre>
 ### Features and Screenshots
-
+<pre>
+</pre>
 #### 1. Navigation Bar - Bootstrap 5 Navbar 
 <img src="./website screenshots/header2.png" alt="navbar">
 
@@ -43,7 +44,7 @@ Many features / classes of Bootstrap are used in the project.
 
 </pre>
 
-### pizza con amore Website Link 
+### Website Link 
    <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
 <pre>
 
