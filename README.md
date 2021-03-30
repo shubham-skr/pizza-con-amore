@@ -49,13 +49,5 @@ Many features / classes of Bootstrap are used in the project.
 <pre>
 
 </pre>
-
-#### References
-  1. Daily Tuition    - Youtube
-  2. Code Galaxy      - Youtube
-  3. Thapa Technical  - Youtube
-  
-<pre>
-
-</pre>
+ 
 Thanks for visiting and have a nice day.
