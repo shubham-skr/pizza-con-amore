@@ -1,10 +1,11 @@
+<pre>
 # pizza-con-amore
 ####      - Bootstrap 5 Project
 
 
 
-
 Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
+
 
 ### Features and Screenshots
 #### 1. Navigation Bar - Bootstrap 5 Navbar 
@@ -34,9 +35,12 @@ Several other features / classes of Bootstrap are used through out the project.
 
 
 ### pizza con amore Website Link 
-<a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
+        <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
+
 
 #### References
   1. Daily Tuition    - Youtube
   2. Code Galaxy      - Youtube
   3. Thapa Technical  - Youtube
+
+</pre>
