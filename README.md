@@ -15,7 +15,7 @@
 
 #### 3. About Section - Bootstrap 5 Grid 
 <img src="./website screenshots/about2.png" alt="about">
-<img src="./webiste screenshots/about.jpg" alt="mobile about">
+<img src="./website screenshots/about.jpg" alt="mobile about">
 
 #### 4. Services Cards - Bootstrap 5 Card 
 <img src="./website screenshots/services2.png" alt="services">
