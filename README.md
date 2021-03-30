@@ -1,10 +1,11 @@
 # pizza-con-amore
 ####      - Bootstrap 5 Project
 
-Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
+<p style="margin-top: 5rem;">Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5</p>
 
 ### Features and Screenshots
 #### 1. Navigation Bar - Bootstrap 5 Navbar 
+<img src="./webiste screenshots/header.jpg" alt="mobile navbar">
 <img src="./website screenshots/header2.png" alt="navbar">
 <img src="./webiste screenshots/header.jpg" alt="mobile navbar">
 
