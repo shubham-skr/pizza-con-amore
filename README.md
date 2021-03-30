@@ -28,11 +28,11 @@ Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
 <pre>
 </pre>
 <img src="./website screenshots/pizza2.png" alt="pizza">
-
-#### 6. Reviews Carousel - Bootstrap 5 Carousel 
-<img src="./website screenshots/reviews2.png" alt="reviews">
 <pre>
 </pre>
+#### 6. Reviews Carousel - Bootstrap 5 Carousel 
+<img src="./website screenshots/reviews2.png" alt="reviews">
+
 #### 7. Footer Section - Bootstrap 5 Grid and Input 
 <pre>
 </pre>
