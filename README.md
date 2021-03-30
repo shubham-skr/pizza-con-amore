@@ -1,5 +1,5 @@
 # pizza-con-amore
-#### <pre>  </pre>- Bootstrap 5 Project
+####   - Bootstrap 5 Project
 <pre>
 
 
@@ -24,13 +24,17 @@ Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
 #### 4. Services Cards - Bootstrap 5 Card 
 <img src="./website screenshots/services2.png" alt="services">
 
-#### 5. Pizza Image Gallery - Bootstrap 5 Grid 
+#### 5. Pizza Image Gallery - Bootstrap 5 Grid
+<pre>
+</pre>
 <img src="./website screenshots/pizza2.png" alt="pizza">
 
 #### 6. Reviews Carousel - Bootstrap 5 Carousel 
 <img src="./website screenshots/reviews2.png" alt="reviews">
 
 #### 7. Footer Section - Bootstrap 5 Grid and Input 
+<pre>
+</pre>
 <img src="./website screenshots/footer2.png" alt="footer">
 <pre>
 
@@ -41,7 +45,7 @@ Several other features / classes of Bootstrap are used through out the project.
 
 </pre>
 ### pizza con amore Website Link 
-<pre>        </pre><a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
+    <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
 <pre>
 
 
