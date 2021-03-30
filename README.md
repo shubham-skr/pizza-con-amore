@@ -37,14 +37,14 @@ Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
 <pre>
 
 </pre>
-Several other features / classes of Bootstrap are used through out the project.
+Many features / classes of Bootstrap are used in the project.
 <pre>
 
 
 </pre>
 
 ### pizza con amore Website Link 
-    <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
+   <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
 <pre>
 
 </pre>
