@@ -3,7 +3,7 @@
 <pre>
 
 </pre>
-Fully Responsive and Beautiful Pizza Shop Website using Bootstrap 5
+Responsive and Beautiful Pizza Shop Website using Bootstrap 5
 <pre>
 
 </pre>
