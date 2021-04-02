@@ -1,4 +1,5 @@
 # pizza con amore
+
 ####      - Bootstrap 5 Project
 
 <pre>
@@ -18,6 +19,7 @@ PIZZA SHOP WEBSITE DESIGNED USING BOOTSTRAP 5
 </pre>
 
 #### 1. Navigation Bar - Bootstrap 5 Navbar 
+
 <img src="./website screenshots/header.png" alt="navbar">
 
 <pre>
@@ -25,6 +27,7 @@ PIZZA SHOP WEBSITE DESIGNED USING BOOTSTRAP 5
 </pre>
 
 #### 2. Home Carousel - Bootstrap 5 Carousel 
+
 <img src="./website screenshots/home.png" alt="home">
 
 <pre>
@@ -32,6 +35,7 @@ PIZZA SHOP WEBSITE DESIGNED USING BOOTSTRAP 5
 </pre>
 
 #### 3. About Section - Bootstrap 5 Grid 
+
 <img src="./website screenshots/about.png" alt="about">
 
 <pre>
@@ -39,6 +43,7 @@ PIZZA SHOP WEBSITE DESIGNED USING BOOTSTRAP 5
 </pre>
 
 #### 4. Services Cards - Bootstrap 5 Card 
+
 <img src="./website screenshots/services.png" alt="services">
 
 <pre>
@@ -46,6 +51,7 @@ PIZZA SHOP WEBSITE DESIGNED USING BOOTSTRAP 5
 </pre>
 
 #### 5. Pizza Image Gallery - Bootstrap 5 Grid
+
 <img src="./website screenshots/pizza.png" alt="pizza">
 
 <pre>
@@ -53,6 +59,7 @@ PIZZA SHOP WEBSITE DESIGNED USING BOOTSTRAP 5
 </pre>
 
 #### 6. Reviews Carousel - Bootstrap 5 Carousel 
+
 <img src="./website screenshots/reviews.png" alt="reviews">
 
 <pre>
@@ -69,9 +76,11 @@ PIZZA SHOP WEBSITE DESIGNED USING BOOTSTRAP 5
 </pre>
 
 ### Website Link 
+
    <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
    
 <pre>
+
 
 </pre>
 
