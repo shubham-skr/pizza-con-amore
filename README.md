@@ -77,11 +77,11 @@ PIZZA SHOP'S ONLINE WEBSITE DESIGNED USING BOOTSTRAP 5
 
 ### Website Link 
 
-   <a href="https://x-walker-x.github.io/pizza-con-amore/">pizza con amore</a>
+https://x-walker-x.github.io/pizza-con-amore/
    
 <pre>
 
 
 </pre>
 
-Thanks for visiting and have a nice day.
+##### Thanks for visiting and have a nice day.
