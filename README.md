@@ -4,7 +4,7 @@
 
 <br/>
 
-PIZZA SHOP'S ONLINE WEBSITE DESIGNED USING BOOTSTRAP 5  
+Pizza shop's online website, designed using Bootstrap 5
 
 <br/>
 
