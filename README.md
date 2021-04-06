@@ -1,87 +1,63 @@
 # pizza con amore
 
-####      - Bootstrap 5 Project
+#### --- Bootstrap 5 Project
 
-<pre>
-
-</pre>
+<br/>
 
 PIZZA SHOP'S ONLINE WEBSITE DESIGNED USING BOOTSTRAP 5  
 
-<pre>
-
-</pre>
+<br/>
 
 ### Features and Screenshots
 
-<pre>
-
-</pre>
+<br/>
 
 #### 1. Navigation Bar - Bootstrap 5 Navbar 
 
 <img src="./website screenshots/header.png" alt="navbar">
 
-<pre>
-
-</pre>
+<br/>
 
 #### 2. Home Carousel - Bootstrap 5 Carousel 
 
 <img src="./website screenshots/home.png" alt="home">
 
-<pre>
-
-</pre>
+<br/>
 
 #### 3. About Section - Bootstrap 5 Grid 
 
 <img src="./website screenshots/about.png" alt="about">
 
-<pre>
-
-</pre>
+<br/>
 
 #### 4. Services Cards - Bootstrap 5 Card 
 
 <img src="./website screenshots/services.png" alt="services">
 
-<pre>
-
-</pre>
+<br/>
 
 #### 5. Pizza Image Gallery - Bootstrap 5 Grid
 
 <img src="./website screenshots/pizza.png" alt="pizza">
 
-<pre>
-
-</pre>
+<br/>
 
 #### 6. Reviews Carousel - Bootstrap 5 Carousel 
 
 <img src="./website screenshots/reviews.png" alt="reviews">
 
-<pre>
-
-</pre>
+<br/>
 
 #### 7. Footer Section - Bootstrap 5 Grid and Input 
 
 <img src="./website screenshots/footer.png" alt="footer">
 
-<pre>
-
-
-</pre>
+<br/>
 
 ### Website Link 
 
 https://x-walker-x.github.io/pizza-con-amore/
    
-<pre>
+<br/>
 
-
-</pre>
-
-##### Thanks for visiting and have a nice day.
+##### Thanks for visiting.
