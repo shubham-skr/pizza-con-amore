@@ -1,6 +1,6 @@
 # pizza con amore
 
-#### --- Bootstrap 5 Project
+##### --- Bootstrap 5 Project
 
 <br/>
 
@@ -60,4 +60,4 @@ https://x-walker-x.github.io/pizza-con-amore/
    
 <br/>
 
-##### Thanks for visiting.
+###### Thanks for visiting.
