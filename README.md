@@ -6,9 +6,7 @@
 
 ###### Pizza shop's online website, designed using Bootstrap 5
 
-<br/>
-
-### Website Link 
+<br/> 
 
 https://x-walker-x.github.io/pizza-con-amore/
    
