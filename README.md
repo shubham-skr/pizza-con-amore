@@ -8,6 +8,12 @@
 
 <br/>
 
+### Website Link 
+
+https://x-walker-x.github.io/pizza-con-amore/
+   
+<br/>
+
 ### Features and Screenshots
 
 <br/>
@@ -52,12 +58,6 @@
 
 <img src="./website screenshots/footer.png" alt="footer">
 
-<br/>
-
-### Website Link 
-
-https://x-walker-x.github.io/pizza-con-amore/
-   
 <br/>
 
 ###### Thanks for visiting.
